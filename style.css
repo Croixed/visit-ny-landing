@@ -1,0 +1,228 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: roboto, sans-serif;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  /* background-color: #1f293780; */
+  background: linear-gradient(#000A, #9198e500);
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-image: url("images/ny_bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.herotainer {
+  justify-content: center;
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #1f2937d0;
+  border-radius: 30px;
+  flex-wrap: wrap;
+}
+
+.heroleft {
+  width: 360px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+}
+
+.herotitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.herotext {
+  font-size: 14px;
+  margin-bottom: 14px;
+
+}
+
+.infocard {
+  height: auto;
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infotitle {
+  text-align: center;
+  margin: 18px;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+}
+
+.infotainer {
+  margin-left: 120px;
+  margin-right: 120px;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  row-gap: 20px;
+}
+
+.infotext {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: white;
+}
+
+.quote {
+  display: flex;
+  height: 300px;
+  /*background-color: #e5e7eb;*/
+  /*background-image: url("images/slop.jpg");*/
+  background: rgba(0, 0, 0, 0.35) url("images/quote_bg.jpg");
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotetainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 120px;
+  margin-right: 120px;
+  align-items: flex-end;
+}
+
+.quotetext,
+.quoteauthor {
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px #1f2937;
+}
+
+.signup {
+  height: 200px;
+  background-color: #4A6385;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* use 6E92C4 as border highlight/buttons? */
+}
+
+.signuptainer {
+  gap: 100px;
+  padding: 20px 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6E92C4;
+  border-radius: 8px;
+}
+
+#signup-email {
+  font-size: 20px;
+}
+
+.signleft {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.signuptitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer {
+  height: 50px;
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  margin-left: auto;
+  margin-right: 34px;
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.info img {
+  height: 180px;
+  width: 180px;
+  border: #6E92C4 4px solid;
+  border-radius: 22%;
+}
+
+.hero img {
+  height: 260px;
+  width: auto;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  align-self: center; /* might bug second button */
+  font-weight: bold;
+}
